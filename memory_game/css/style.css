@@ -37,6 +37,11 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 20px;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+border-bottom: 2px solid #ffffff;
 }
 
 p {
@@ -67,4 +72,43 @@ main {
 
 img {
     margin: 40px 8px;
+}
+
+footer {
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #0d2c40;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+
+.copyright {
+    font-family: 'raleway', sans-serif;
+    text-align: left;
+    display: inline;
+    margin: 50px 50px;
+}
+
+.message {
+    font-family: 'raleway', sans-serif;
+    text-align: right;
+    display: inline;
+}
+
+
+.name {
+    color: #f15b31;
+    font-weight: 700;
 }
