@@ -96,13 +96,14 @@ font-size: 0;
 
 .copyright {
     font-family: 'raleway', sans-serif;
+    float: left;
     text-align: left;
     display: inline;
-    margin: 50px 50px;
 }
 
 .message {
     font-family: 'raleway', sans-serif;
+    float: right;
     text-align: right;
     display: inline;
 }
