@@ -37,7 +37,7 @@ function checkForMatch() {
 function flipCard(cardId) {
 	var cardId = this.getAttribute('data-id');
 	cardsInPlay.push(cards[cardId].rank);
-	this.setAttribute('src', cards[cardId.cardImage]);
+	this.setAttribute('src', cards[cardId].cardImage);
     if (cardsInPlay.length === 2) {
     	checkForMatch();
     }
